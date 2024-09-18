@@ -1,4 +1,6 @@
 /* Nav.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -1542,7 +1544,7 @@ margin: 0 0.8px;
           }
           .seconddiv p{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 34px;
+            font-size: 24px;
             width: 1500px;
           }
          
