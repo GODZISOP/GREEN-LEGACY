@@ -8,7 +8,6 @@ import ammara from '../image/ammaraa.jpg';
 import arslan from '../image/ARSLAM.jpg';
 
 import rehan from '../image/re.jpg';
-import agenda from '../image/Agenda.png';
 
 import rehan1 from '../image/ARSLAM.jpg';
 
