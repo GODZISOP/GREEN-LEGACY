@@ -1,0 +1,3 @@
+[submodule "GREEN-LEGACY"]
+    path = GREEN-LEGACY
+    url = https://github.com/username/GREEN-LEGACY.git
