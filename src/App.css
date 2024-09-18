@@ -1,4 +1,19 @@
 /* Nav.css */
+/* src/BlogPage.css */
+body{
+  margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            overflow-x: hidden; /* Prevent horizontal overflow */
+            max-width: 100vw; /* Ensure body does not exceed viewport width */
+            box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.blog-page-container1 {
+    /* your styles here */
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -539,105 +554,6 @@ margin-top: 350px;
     position: absolute;
   }
   /* src/components/ContactUs.css */
-.contact-container {
-  text-align: center;
-  padding: 40px;
-  background-color: #f9f9f9;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.contact-info {
-  margin-top: 20px;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 15px 0;
-  font-size: 1.2rem;
-}
-
-.contact-item svg {
-  margin-right: 10px;
-  color: #007bff;
-}
-
-.contact-form {
-  margin-top: 40px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-.contact-form h2 {
-  margin-bottom: 20px;
-}
-
-.form-group {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.form-group textarea {
-  resize: vertical;
-}
-
-.error {
-  border-color: #e74c3c;
-}
-
-.error-message {
-  color: #e74c3c;
-  font-size: 0.875rem;
-  margin-top: 5px;
-  display: block;
-}
-
-.submit-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s;
-}
-
-.submit-button svg {
-  margin-right: 8px;
-}
-
-.submit-button:hover {
-  background-color: #0056b3;
-}
-/* Accordion.css */
-body {
-  font-family: Arial, sans-serif;
-}
 
 .accordion-container {
   display: flex;
@@ -696,17 +612,12 @@ width: 48%;
 }
 .accordion-container1{
   text-align: center;
-padding-bottom: 150px;
+  margin-left: 10px;
+padding-bottom: 10px;
   background-color: rgb(232, 250, 230);
 
 }
-#h11{
-  padding-left: 100px;
-  padding-top: 50px;
-font-size: 40px;
-margin-top: 80px;
 
-}
 /* src/BlogPage.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
@@ -789,93 +700,6 @@ margin-top: 80px;
   justify-content: space-between;
 }
 
-
-.blog-post {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.blog-post:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.post-image {
-  width: 100%;
-  height: 1000px; /* Increased height for larger images */
-  object-fit: cover;
-  transition: opacity 0.3s ease;
-}
-
-.post-content {
-  padding: 30px; /* Increased padding for a more spacious look */
-}
-
-.post-title {
-  color: #2c6e49;
-  font-size: 2.5rem; /* Increased font size for better prominence */
-  margin: 0 0 15px;
-  font-weight: 700;
-}
-
-.post-date {
-  color: #7c9b6d;
-  font-size: 1rem;
-  margin-bottom: 15px;
-}
-
-.post-snippet {
-  margin-bottom: 20px;
-  font-size: 1.2rem; /* Increased font size for better readability */
-  line-height: 1.8;
-}
-
-.read-more {
-  color: #2c6e49;
-  text-decoration: none;
-  font-weight: 700;
-  border-bottom: 2px solid #2c6e49;
-  transition: color 0.3s ease, border-color 0.3s ease;
-}
-
-.read-more:hover {
-  color: #1b4d28;
-  border-color: #1b4d28;
-}
-
-/* Layout adjustments for different rows */
-.single-row {
-  grid-row: span 1;
-}
-
-.double-row {
-  grid-row: span 2; /* This will span two rows */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .blog-posts-container {
-    grid-template-columns: 1fr; /* Single column layout on smaller screens */
-  }
-
-  .post-image {
-    height: 300px; /* Adjusted height for smaller screens */
-  }
-
-  .post-title {
-    font-size: 2rem; /* Adjusted font size for smaller screens */
-  }
-
-  .post-snippet {
-    font-size: 1.1rem;
-  }
-}
 
 @media (max-width: 480px) {
   .post-image {
@@ -1318,11 +1142,11 @@ display: flex;
 }
 .imgg img{
   margin-top: 30px;
-  margin-left: 60px;
+  height: 1000px;
+  width: 1100px;
 }
 
 .data {
-  margin-left: 120px;
 }
 .data h1{
   font-size: 50px;
@@ -1334,15 +1158,17 @@ display: flex;
   font-size: 35px;
 }
 .data2 img {
-  margin-top: 180px;
-  margin-top: 20px;
-   padding-left: 50px;
+  margin-top: 30px;
+  margin-left: 0;
+  margin: 0 80px;
+  height: 1000px;
+  width: 1100px;
+
 }
 
 .all{
   margin-top: 100px;
 
-  margin-right: 150px;
   display: flex;
   justify-content: space-around;
 }
@@ -1364,11 +1190,9 @@ display: flex;
   font-weight: 900;
 }
 .lamba {
-  margin-left: 120px;
 
 }
 .lamba2 {
-  margin-left: 120px;
 
 }
 
@@ -1378,7 +1202,6 @@ display: flex;
 }
 
 .alldixx{
-  margin-left: 40px;
 }
 .alldixx h1{
   font-size: 50px;
@@ -1387,7 +1210,6 @@ display: flex;
   font-size: 30px;
 }
 .agywaladiv p{
-margin-left: 30px;
 }
 .agywaladiv span{
   font-weight: bold;
@@ -1408,12 +1230,10 @@ margin-left: 30px;
       }
       .spandiv span{
         font-weight: bold;
-margin-left: 30px;
             
           }
           .h1heading span{
             font-weight: bold;
-            margin-left: 30px;
 
           }
           .dixxflrx h1{
@@ -1634,6 +1454,9 @@ font-weight: bolder;
 margin: 0
 }
 
+.climatealign{
+margin-left: 50px
+}
 
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 

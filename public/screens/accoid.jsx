@@ -52,7 +52,10 @@ const Accordion = () => {
 
   return (<>
           <div className="accordion-container1">
+            <div>
+
       <h1 id='h11'>FREQUENTLY ASKED QUESTION'S?</h1>
+            </div>
 <div className='accordion-container'>
 
       <div className="accordion-column">
