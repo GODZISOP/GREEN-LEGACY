@@ -828,92 +828,122 @@ align-items: center;
   }
 
 /* From Uiverse.io by Sharkotech */ 
+.caa {
+  margin: 2vh 2vw; /* Adjusted from 20px */
+}
+
+.social-icon1 {
+  font-size: 5vw; /* Adjusted from 50px */
+  padding: 0.1vw; /* Adjusted from 1px */
+  border-radius: 2vw; /* Adjusted from 20px */
+  color: white;
+}
+
+.social-icon2 {
+  font-size: 5vw; /* Adjusted from 50px */
+  color: white;
+}
+
+.social-icon3 {
+  font-size: 5vw; /* Adjusted from 50px */
+  color: white;
+  margin: 0 3vw; /* Adjusted from 30px */
+}
+
+.social-icon4 {
+  font-size: 5vw; /* Adjusted from 50px */
+  padding: 0; /* Removed padding since it was 'px' */
+  color: white;
+  border-radius: 2vw; /* Adjusted from 20px */
+}
+
+/* From Uiverse.io by Sharkotech */ 
 .card {
-width: 50vw;
-height: 37vh;
-background: rgba(0, 0, 0, 0.199);
-position: absolute;
-margin-top: 22vh;
-margin-right: 40vw;
-transition: .3s ease-in-out;
-cursor: pointer;
-box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
+  width: 50vw;
+  height: 37vh;
+  background: rgba(0, 0, 0, 0.199);
+  position: absolute;
+  margin-top: 22vh; /* Kept the same as it's already in vh */
+  margin-right: 40vw; /* Adjusted from 40rem */
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 3vh -1vh rgba(0, 0, 0, 0.3); /* Adjusted shadow */
 }
 
 #c1 {
-background-color: black;
+  background-color: black;
 }
 
 #c2 {
-background-color: blue;
+  background-color: blue;
 }
 
 #c3 {
-background-color: red;
+  background-color: red;
 }
 
 #c4 {
-text-align: center;
-border: 2px solid rgb(0, 0, 0);
-font-size: 40px;
-
-background-color: green;
-}
-.textt{
-
+  text-align: center;
+  border: 0.2vw solid rgb(0, 0, 0); /* Adjusted from 2px */
+  font-size: 2vw; /* Adjusted from 40px */
+  background-color: green;
 }
 
-.main h4{
-margin: 30px;
+.textt {}
+
+.main h4 {
+  margin: 3vh; /* Adjusted from 30px */
 }
-.main h3{
-padding-top: 3vh;
-margin: 5vh;
-height: 3vh;
+
+.main h3 {
+  padding-top: 3vh; /* Kept the same as it's already in vh */
+  margin: 5vh; /* Kept the same as it's already in vh */
+  height: 3vh; /* Kept the same as it's already in vh */
 }
 
 .main:hover #c1 {
-transform: translateX(-100px) rotate(-40deg);
+  transform: translateX(-10vw) rotate(-40deg); /* Adjusted from -100px */
 }
 
 .main:hover #c2 {
-transform: translateX(-50px) rotate(-30deg);
+  transform: translateX(-5vw) rotate(-30deg); /* Adjusted from -50px */
 }
 
 .main:hover #c3 {
-transform: translateX(0) rotate(-20deg);
+  transform: translateX(0) rotate(-20deg);
 }
 
 .main:hover #c4 {
-transform: translateX(50px) rotate(-10deg);
+  transform: translateX(5vw) rotate(-10deg); /* Adjusted from 50px */
 }
 
 #c1:hover {
-transform: translateX(-150px) rotate(0deg) !important;
+  transform: translateX(-15vw) rotate(0deg) !important; /* Adjusted from -150px */
 }
 
 #c2:hover {
-transform: translateX(-100px) rotate(0deg) !important;
+  transform: translateX(-10vw) rotate(0deg) !important; /* Adjusted from -100px */
 }
 
 #c3:hover {
-transform: translateX(-50px) rotate(0deg) !important;
+  transform: translateX(-5vw) rotate(0deg) !important; /* Adjusted from -50px */
 }
 
 #c4:hover {
-transform: translateX(50px) rotate(0deg) !important;
+  transform: translateX(5vw) rotate(0deg) !important; /* Adjusted from 50px */
 }
 
 .main {
-display: grid;
-align-items: center;
-place-items: center;
+  display: grid;
+  align-items: center;
+  place-items: center;
 }
-.social-icon5{
-font-size: 5rem;
-padding: 1rem;
-color: white;
-border-radius: 20px;
+
+.social-icon5 {
+  font-size: 3vw; /* Adjusted from 5rem */
+  padding: 1vh; /* Adjusted from 1rem */
+  color: white;
+  border-radius: 2vw; /* Adjusted from 20px */
 }
 
 /* src/ImageSlider.css */
