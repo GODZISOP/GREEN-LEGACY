@@ -6,8 +6,6 @@ body {
 
   overflow-x: hidden; /* Prevent horizontal scrolling */
 margin: 0;
-padding: 0;
-box-sizing: border-box; /* Include padding and borders in element's total width */
 }
 
 
@@ -36,76 +34,76 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 
 .main-nav h2 {
 margin-right: 20px;
-font-size: 50x;
+font-size: 1vw;
 color: #333;
 }
 
 .logo1 {
-width: 140px;
+width: 8vw;
 height: auto;
-margin-right: 20px; /* Space between logo and links */
 }
-
 .nav-link {
-margin: 0 15px;
-text-decoration: none;
-color: #333; /* Default link color */
-font-weight: 500;
-padding: 10px 10px; /* Add padding for better click area */
-border-radius: 5px;
-transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 1.5vw; /* Adjusted */
+  text-decoration: none;
+  color: #333; /* Default link color */
+  font-weight: 500;
+  padding: 1vh 1vh; /* Adjusted for better click area */
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nav-link.active {
-background: linear-gradient(45deg, #007bff, #00d2ff); /* Gradient background */
-color: #fff; /* Text color when active */
-font-weight: bold;
-transform: scale(1.05); /* Slight zoom effect */
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for active state */
+  background: linear-gradient(45deg, #007bff, #00d2ff); /* Gradient background */
+  color: #fff; /* Text color when active */
+  font-weight: bold;
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for active state */
 }
 
 .nav-link:hover {
-background: rgba(0, 0, 0, 0.1); /* Light background on hover */
-color: #007bff; /* Hover text color */
-text-decoration: underline; /* Underline on hover */
-transform: scale(1.05); /* Slight zoom effect on hover */
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  background: rgba(0, 0, 0, 0.1); /* Light background on hover */
+  color: #007bff; /* Hover text color */
+  text-decoration: underline; /* Underline on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
 }
 
 .LINKS {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: rgb(37, 143, 37); /* Green background */
-padding: 10px; /* Add some padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 143, 37); /* Green background */
+  padding: 1vh; /* Adjusted */
 }
 
 .LINKS h4 {
-margin: 0;
-font-size: 16px;
-color: rgb(223, 218, 218); /* Light text color */
+  margin: 0;
+  font-size: 0.8vw; /* Adjusted */
+  color: rgb(223, 218, 218); /* Light text color */
 }
-
 
 .LINKS:hover {
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-color: #ff0000; /* Text color change on hover */
-transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+  color: #ff0000; /* Text color change on hover */
+  transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
+
 h4:hover {
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-color: #84ff00; /* Text color change on hover */
-transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+  color: #84ff00; /* Text color change on hover */
+  transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
 .descp h1{
 color: white;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 height:5vh;
-font-size: 7rem;
+font-size: 5vw;
 }
 .descp p{
 color: gray;
-font-size: 30px;
+font-size: 1.4vw;
+
+margin-left: 10px;
 
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -522,38 +520,42 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 /* Selected section */
 .selected-section {
 
-margin-left: 50px;
+margin-left: 2vw;
 
-border-radius: 10px; /* Rounded corners */
-padding: 10px; /* Padding around content */
+padding: 10px; /* Padd
+ing around content */
 }
 
 .selected-section h1 {
 font-weight: bold; /* Bold title for better visibility */
-font-size: 2rem;
+font-size: 2.4vw;
 color: #2e761e; /* Dark text color for better readability */
 }
 .selected-section h2{
 font-weight: bold; /* Bold title for better visibility */
-font-size: 2rem;
 height: 5vh;
 }
 
 .section-image {
 
-height: 50vh; /* Maintain aspect ratio */
+height: 40vh; /* Maintain aspect ratio */
 width: 40vw;
 margin: 0;
 border: 1px solid #4bc021; /* Light border for image */
 }
 
+
 .selected-section p {
-font-size: 1.3rem; /* Slig
+font-size: 1vw; /* Slig
 htly larger text for readability */
-margin-top: 1vh;
+margin-top: 2vh;
 font-family: 'Times New Roman', Times, serif;
 width: 40vw;
 line-height: 1.7; /* Increased line height for better readability */
+}
+.top1{
+  font-size :0.9vw;
+  margin-left: 0px;
 }
 .selected-section h2 {
 font-size: 1.3rem; /* Slig
@@ -570,13 +572,7 @@ justify-content: space-between;
 
 
 /* src/components/ContactUs.css */
-.contact-container {
-text-align: center;
-padding: 20px;
-background-color: #f9f9f9;
-max-width: 800px;
-margin: 0 auto;
-}
+
 
 
 .accordion-container {
@@ -604,7 +600,6 @@ text-align: left;
 cursor: pointer;
 width: 40vw;
 outline: none;
-font-size: 5rem;
 border-radius: 4px;
 transition: background-color 0.3s;
 }
@@ -622,8 +617,7 @@ background-color: #f1f1f1;
 margin-top: 20px;
 }
 .accordion-header h3{
-
-font-size: 1.6rem
+font-size: 1vw;
 }
 .accordion-content.open {
 max-height: 150px; /* Adjust based on content height */
@@ -641,9 +635,8 @@ background-color: rgb(232, 250, 230);
 
 }
 #h11{
-padding-left: 100px;
 padding-top: 50px;
-font-size: 40px;
+font-size: 5vw;
 margin-top: 80px;
 
 }
@@ -758,18 +751,27 @@ background-color:rgb(11, 128, 11);
   width: 100vw;
 }
 
-.headerfoot{
-padding: 150px;
-font-size: 30px;
-margin: 0;
-display: flex;
-justify-content: space-between;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-weight: bolder;
-color: rgb(254, 255, 253);
-background-color:rgb(13, 102, 13);
-
+.contact{
+  margin: 0 60px;
 }
+
+.headerfoot {
+
+  width: 100vw;
+  height: 50vh;
+  
+  color: rgb(254, 255, 253);
+  background-color: rgb(13, 102, 13);
+}
+.headerfoot1{
+
+  width: 70vw;
+  height: 50vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 .inputt{
 display: flex;
 flex-direction: column;
@@ -863,8 +865,6 @@ align-items: center;
   height: 37vh;
   background: rgba(0, 0, 0, 0.199);
   position: absolute;
-  margin-top: 22vh; /* Kept the same as it's already in vh */
-  margin-right: 40vw; /* Adjusted from 40rem */
   transition: 0.3s ease-in-out;
   cursor: pointer;
   box-shadow: 0px 0px 3vh -1vh rgba(0, 0, 0, 0.3); /* Adjusted shadow */
@@ -1024,10 +1024,10 @@ background-color: rgba(0, 0, 0, 0.8);
 display: flex;  
 }
 .imgg img{
-width: 40vw;
-height: 70vh;
+width: 47vw;
+height: 100vh;
 margin-top: 30px;
-margin-left: 50px;
+margin-left: 20px;
 }
 
 
@@ -1036,316 +1036,286 @@ margin-left: 50px;
 
 
 /* section climate */
-
-
-
 .data {
-margin-left: 50px;
-}
-.data h1{
-font-size: 5vh;
-
-font-weight: 900;
-}
-.data p{
-font-size: 1.4rem;
+  margin-left: 5vw; /* Adjusted from 50px */
 }
 
-
-.all{
-margin-top: 100px;
-
-margin-right: 150px;
-display: flex;
-justify-content: space-around;
-}
-.secondquestion{
-margin-top: 100px;
-}
-.secondquestion h1{
-
-
-font-size: 6vh;
-
-font-weight: 900;
-}
-.secondquestion p{
-margin-top: 50px;
-}
-.data2 img{
-width: 40vw;
-height: 60vh;
-margin-top: 30px;
-margin-left: 130px;
+.data h1 {
+  font-size: 4vh; /* Kept the same */
+  font-weight: 900;
 }
 
-
-
-
-.lamba p{
-height: 7vh;
-font-size: 1.6rem;
+.data p {
+  width: 43vw;
+  font-size: 1.6vw; /* You may want to convert this to vw or vh */
 }
-.lamba h1{
-padding-top: 20px;
 
-font-size: 5vh;
-font-weight: 900;
+.all {
+  margin-top: 10vh; /* Adjusted from 100px */
+  margin-right: 15vw; /* Adjusted from 150px */
+  display: flex;
+  justify-content: space-between;
 }
-.lamba {  margin-left: 50px;
+
+.secondquestion {
+  margin-top: 10vh; /* Adjusted from 100px */
+}
+
+.secondquestion h1 {
+  font-size: 4vh; /* Kept the same */
+
+  font-weight: 900;
+}
+
+.secondquestion p {
+  font-size: 1.6vw; /* You may want to convert this to vw or vh */
 
 
 }
+
+.data2 img {
+  width: 47vw; /* Kept the same */
+  height: 60vh; /* Kept the same */
+  margin-top: 3vh; /* Adjusted from 30px */
+  margin-left: 1vw; /* Adjusted from 130px */
+}
+
+.lamba p {
+  width: 89vw;
+  font-size: 1.6rem; /* You may want to convert this to vw or vh */
+}
+
+.lamba h1 {
+  padding-top: 2vh; /* Adjusted from 20px */
+  font-size: 5vh; /* Kept the same */
+  font-weight: 900;
+}
+
+.lamba {
+  margin-left: 5vw; /* Adjusted from 50px */
+}
+
 .lamba2 {
-margin-left: 50px;
-
-
+  margin-left: 5vw; /* Adjusted from 50px */
 }
-.lamba2 h1{
-padding-top: 20px;
-font-size: 5vh;
-font-weight: 900;
+
+.lamba2 h1 {
+  padding-top: 2vh; /* Adjusted from 20px */
+  font-size: 5vh; /* Kept the same */
+  font-weight: 900;
 }
 
 .lamba2 p {
-height: 7vh;
-font-size: 1.6rem;
+  width: 89vw;
+  font-size: 1.6rem; /* You may want to convert this to vw or vh */
 }
 
-.alldixx{
-margin-left: 40px;
-}
-.alldixx h1{
-font-size: 50px;
-}
-.alldixx p{
-font-size: 30px;
-}
-.agywaladiv p{
-margin-left: 30px;
-}
-.agywaladiv span{
-font-weight: bold;
+.alldixx {
+  margin-left: 4vw; /* Adjusted from 40px */
 }
 
-.alagdiv span{
-font-weight: bold;
-font-size: 50px;
-
+.alldixx h1 {
+  font-size: 5vw; /* Adjusted from 50px */
 }
-.alagdiv p{
-font-size: 30px;
 
-  }
-  .spandiv{
-font-size: 30px;
-    
-  }
-  .spandiv span{
+.alldixx p {
+  font-size: 3vw; /* Adjusted from 30px */
+}
+
+.agywaladiv p {
+  margin-left: 3vw; /* Adjusted from 30px */
+}
+
+.agywaladiv span {
+  font-weight: bold;
+}
+
+.alagdiv span {
+  font-weight: bold;
+  font-size: 5vw; /* Adjusted from 50px */
+}
+
+.alagdiv p {
+  font-size: 3vw; /* Adjusted from 30px */
+}
+
+.spandiv {
+  font-size: 3vw; /* Adjusted from 30px */
+}
+
+.spandiv span {
+  font-weight: bold;
+  margin-left: 3vw; /* Adjusted from 30px */
+}
+
+.h1heading span {
+  font-weight: bold;
+  margin-left: 3vw; /* Adjusted from 30px */
+}
+
+.dixxflrx h1 {
+  margin: 0px;
+  color: green;
+  width: 60vw;
+  margin-bottom: 6vh; /* Adjusted from 60px */
+  font-family: "Lilita One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4vw; /* Adjusted from 90px */
+}
+
+.dixxflrx p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4vw;
+  width: 80vw; 
+}
+
+.dixxflrx {
+  margin-top: 4vh; /* Adjusted from 170px */
+  margin-left: 5vw; /* Kept the same */
+}
+
+.dixxflrx span {
+  color: green;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.9vw; /* Consider converting to vw or vh if needed */
+}
+
+.greenheader {
+  background-color: green;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ /* Adjusted from 20px 0 60px 30px */
+ padding: 3vh 0vw 4vh 3vh;
+ height: 27vh;
+}
+
+.greenheader h1 {
+  margin-left: 0vw; /* Adjusted from 13px */
+  margin-bottom: 4vh;
+  font-size: 3vw /* Considvher converting to vw or vh if needed */
+}
+
+.greenheader p {
+  font-size: 1.6vw; 
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.greenheader span {
     font-weight: bold;
-margin-left: 30px;
-        
-      }
-      .h1heading span{
-        font-weight: bold;
-        margin-left: 30px;
+  font-size: 1.3vw; /* Consider converting to vw or vh if needed */
+}
+.topone{
+  height: 5vh;
+  margin: 0px;
+}
+.newheading h1 {
+  color: green;
+  width: 99vw;
+  margin-bottom: 6vh; /* Adjusted from 60px */
+  font-family: "Lilita One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3vw; /* Adjusted from 90px */
+}
 
-      }
-      
-      .dixxflrx h1{
-        margin: 0;
-        line-height: 30px;
-        color: green;
-        margin-bottom: 60px;
-        font-family: "Lilita One", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-      
-        font-size: 90px;
-      }
-         .dixxflrx p{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.6rem;
-        width: 80vw;
-      }
-      .dixxflrx{
-        margin-top: 170px;
-        margin-left: 5vw;
+a {
+  margin: 0 0.08vw; /* Adjusted from 0.8px */
+  color: blue;
+  font-size: 1vw; /* Adjusted from 17px */
+  text-decoration: none;
+}
 
-      }
-      .dixxflrx span{
-        color: green;
-font-weight: bold;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.4rem;
-        
-      }
-      .greenheader{
-padding: 4vh;
-        background-color: green;
-        color: white;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.sourcelinks span {
+  font-size: 1.9vw; /* Adjusted from 17px */
+}
+
+#SPANNN {
+  margin-top: 0.1vh; /* Adjusted from 1px */
+  margin-left: 5vw; /* Adjusted from 90px */
+  color: rgb(0, 0, 0);
+  font-size: 0.9vw; /* Consider converting to vw or vh if needed */
+}
+
+#SPANNNN {
+  margin-left: 5.05vw; /* Adjusted from 505px */
+  color: rgb(0, 0, 0);
+  font-size: 0.9vw; /* Consider converting to vw or vh if needed */
 
 
-padding: 20px 0 60px 30px;
-      }
+}
 
-      .greenheader h1{
-margin-left: 13px;
-line-height: 80px;
-height: 5vh;
-        font-size: 3.7rem;
-      }
-      .greenheader p{
-margin-left: 20px;
+.seconddiv {
+  background-color: honeydew;
+  width: 100vw; /* Kept the same */
+  margin-left: 0;
+  margin-top: 7vh; /* Adjusted from 70px */
+}
 
-line-height: px;
-height: 0;
-        font-size: 1.4rem;
-font-weight: bold;
-
-      }
-      .greenheader span{
-font-weight: bold;
-margin: 0;
-margin-left: 22px;
-line-height: 2px;
-        font-size: 1rem;
-      }
-      .newheading h1{
-
-        margin: 0;
-        line-height: 80px;
-        color: green;
-        height: 140px;
-        margin-bottom: 60px;
-        
-        font-family: "Lilita One", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-      
-        font-size: 70px;
-
-
-      }
-       a{
-margin: 0 0.8px;
-        color: blue;
-        font-size: 17px;
-        
-        text-decoration: none;
-
-
-      }
-      .sourcelinks span {
-        font-size: 17px;
-
-
-        
-        
-                  }
-                  #SPANNN{
-                    margin-top: 1px;
-                    margin-left: 90px;
-
-
-                    color: rgb(0, 0, 0);
-        font-size: 1.3rem;
-
-
-                  }
-                  #SPANNNN{
-                    margin-left: 505px;
-                    color: rgb(0, 0, 0);
-        font-size: 17px;
-
-
-                  }
-
-      .seconddiv{
-        background-color: honeydew;
-        width: 100vw;
-        
-        margin-left: 0;
-        margin-top: 70px;
-      }
-      .seconddiv2{
-        width: 100vw;
-        margin-top: 70px;
-      }
-      .seconddiv2 p{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 1.4rem;
-        height: 480px;
-        width: 70vw;
-      }
-      .seconddiv p{
-        font-size: 1.6rem;
-
-        height: 19vh;
-        width: 80vw;
-      }
-     
-      .newheading2{
-
-
-        margin-left: 4vw;
-        
-      }
-      .newheading{
-
-
-        margin-left: 4vw;
-        
-      }
-      
-
-      .newheading2 h1{
-
-        
-        line-height: 80px;
-        color: green;
-        height: 2vh;
-        margin-bottom: 60px;
-        
-        font-family: "Lilita One", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-      
-        font-size: 70px;
-
-
-      }
-      
-      .newheading2 span{
-        color: green;
-        font-weight: bold;
-        height: 0;
-                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    font-size: 44px;size: 20px;
-
-
-      }
-      .newheading2 p{
-
-       height: 42vh;
-       margin-top: 15vh;
-        font-size: 1.6rem;
+.seconddiv2 {
+  width: 100vw; /* Kept the same */
+  margin-top: 7vh; /* Adjusted from 70px */
+}
 
 
 
-      }
-      .margin{
-        margin-top: 5vh;
-      }
-      #SPANNNN{
-        margin: 0;
-        height: 2vh;
-        margin-left: 4vw;
-      }
 
-.videoo video{
+.newheading2 {
+  margin-left: 4vw; /* Kept the same */
+}
+
+.newheading {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  margin-left: 4vw; /* Kept the same */
+}
+
+.newheading2 h1 {
+  margin: 0;
+  color: green;
+  width: 60vw;
+  margin-bottom: 6vh; /* Adjusted from 60px */
+  font-family: "Lilita One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 4vw; /* Adjusted from 90px */
+}
+
+.newheading2 span {
+  color: green;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.9vw; /* Consider converting to vw or vh if needed */
+}
+
+.newheading2 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4vw;
+  width: 80vw; 
+}
+.newheading p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.4vw;
+  width: 80vw; 
+}
+
+
+.margin {
+  margin-top: 5vh; /* Kept the same */
+}
+
+#SPANNNN {
+  margin: 0;
+  height: 2vh; /* Kept the same */
+  margin-left: 4vw; /* Kept the same */
+}
+
+video{
 height: 80vh;
+margin-left: 0;
+margin-top: 0;
 width: 80vw;
 }
 
@@ -1354,39 +1324,32 @@ width: 80vw;
 font-family: "Lilita One", sans-serif;
 font-weight: bolder;
 margin-top: 20vh;
-
+margin-left: 4vw;
 color: green;
-font-size: 4rem;
+font-size: 4vw;
 font-weight: bolder;
-height: 25vh;
-margin-left: 15vw;
-
+height: 30vh;
 }
+
 .iddd{
-font-size: 1.5rem;
-
-margin-top: 10vh;
-margin-left: 15vw;
-
+font-size: 1.2vw;
 margin-top: 12vh
 }
 .iddd a{
 
 font-size: 1.3rem;
-margin-left: 2px;
 
 }
 .top{
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
 }
-.top1
-{
-margin-left: 60px;
 
-}
 .videoo {
-margin-left: 10vw;
-
+  margin-bottom: 10vh;
 }
+
 
 
 
@@ -1398,7 +1361,99 @@ margin-left: 10vw;
 
 
 
+.footer {
+  background-color:green; /* Darker green for a fresh look */
+  color: white;
+  padding: 20px 15px;
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px; /* Space between grid items */
+  text-align: center;
+}
 
+.footer-content,
+.footer-links,
+.recent-posts,
+.social-media {
+  margin: 10px 0; /* Reduced margins */
+}
+
+h3, h4 {
+  margin-bottom: 5px; /* Adjusted heading margins */
+}
+
+
+.footer-links ul,
+.recent-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a,
+.recent-posts a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.recent-posts a:hover {
+  color: #A5D6A7; /* Lighter green for hover */
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column; /* Stack social icons */
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icon {
+  color: rgb(255, 255, 255);
+  font-size: 24px; /* Adjust icon size */
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  color: rgb(214, 0, 0);
+
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 12px;
+  border-top: 1px solid #A5D6A7;
+  padding-top: 5px;
+  width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 430px) {
+  .footer {
+      grid-template-columns: 1fr; /* Stack items on smaller screens */
+  }
+
+
+
+
+
+  .social-icon {
+      font-size: 20px; /* Adjust social icon size */
+      margin: 0 5px; /* Adjust margin */
+  }
+
+  .footer-bottom {
+      font-size: 10px;
+  }
+}
 
 
 
@@ -1498,7 +1553,7 @@ color: rgb(223, 218, 218);
 }
 
 .descp h1 {
-margin-bottom: 40px;
+margin-bottom: 50px;
 color: white;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 3rem; /* Adjusted size */
@@ -1554,7 +1609,7 @@ overflow-x: hidden; /* Allow horizontal scroll if needed */
 margin-bottom: 20px;
 }
 .sections-row h2 {
-font-size: 0.2rem;
+font-size:6vw;
 }
 
 /* Individual section */
@@ -1584,11 +1639,16 @@ padding: 10px; /* Padding around content */
 }
 
 .selected-section h1 {
+font-size: 8vw;
+
 width: auto; /* Change from fixed width to auto */
 max-width: 190%; /* Set a maximum width */
 }
 .selected-section h2{
-font-size: 2rem;
+font-size: 6vw
+;
+width: 90vw;
+margin-bottom:8vh;
 
 }
 
@@ -1598,23 +1658,14 @@ height: auto; /* Maintain aspect ratio */
 }
 
 .selected-section p {
-font-size: 18px; /* Slig
+font-size: 3.5vw; /* Slig
 htly larger text for readability */
 margin-top: 1vh;
 font-family: 'Times New Roman', Times, serif;
-width: 70vw;
+width: 80vw;
 line-height: 1.7; /* Increased line height for better readability */
 }
-.selected-section h2 {
-font-size: 1.3rem; /* Slig
 
-
-htly larger text for readability */
-margin-bottom: 15vh;
-margin-top: 5vh;
-width: 30vw;
-height: 0h;
-}
 .imagetext{
 display: flex;
 flex-direction: column;
@@ -1653,9 +1704,9 @@ border: none;
 padding: 10px; /* Adjusted padding */
 text-align: left;
 cursor: pointer;
-width: 100%; /* Full width for the header */
+margin-left: 10px;
+width: 80%; /* Full width for the header */
 outline: none;
-font-size: 2rem; /* Adjusted font size */
 border-radius: 4px;
 transition: background-color 0.3s;
 }
@@ -1673,7 +1724,8 @@ margin-top: 10px; /* Adjusted margin */
 }
 
 .accordion-header h3 {
-font-size: 1.2rem; /* Adjusted font size */
+font-size: 2vw; /* Adjusted font size */
+
 }
 
 .accordion-content.open {
@@ -1682,8 +1734,7 @@ padding: 10px; /* Adjusted padding */
 }
 
 .accordion-content p {
-margin: 0;
-font-size: 1rem; /* Adjusted font size */
+font-size: 2.5vw; /* Adjusted font size */
 }
 
 .accordion-container1 {
@@ -1693,14 +1744,12 @@ background-color: rgb(232, 250, 230);
 }
 
 #h11 {
-padding: 20px; /* Adjusted padding */
-font-size: 24px; /* Adjusted font size */
+padding-top: 20px; /* Adjusted padding */
+font-size: 7vw ;
 margin-top: 40px; /* Adjusted margin */
 }
 
-.sections-row h2 {
-font-size: 1.5rem; /* Adjusted font size */
-}
+
 /* contact page */
 .headerfoot {
 padding: 20px; /* Reduced padding */
@@ -1732,7 +1781,7 @@ font-size: 16px; /* Adjusted placeholder font size */
 }
 
 .contact h1 {
-font-size: 2.5rem; /* Adjusted font size */
+font-size: 2vw; /* Adjusted font size */
 height: auto; /* Removed fixed height */
 }
 
@@ -1764,9 +1813,7 @@ height: auto; /* Adjust height as necessary */
 background: rgba(0, 0, 0, 0.199);
 margin: 20px auto; /* Centered with auto margins */
 transition: .3s ease-in-out;
-margin-top: 35vh;
 cursor: pointer;
-margin-right:80vw;
 box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);
 display: flex; /* Optional: if you want to use flex properties */
 flex-direction: column; /* Optional: arrange content in a column */
@@ -1854,9 +1901,10 @@ transform: translateX(30px) rotate(0deg) !important;
 font-family: "Lilita One", sans-serif;
 font-weight: bolder;
 margin-top: 10vh;
+margin-bottom: 0;
 color: green;
-font-size: 1.4rem;
-height: 10vh;
+font-size: 6vw;
+height: 0vh;
 margin-left: 3vw;
 }
 
@@ -1874,25 +1922,29 @@ font-size: 0.7rem;
 margin-left: 2px;
 }
 
-.top {}
+.top {
+  margin-left: 0;
+}
 
 .top1 {
-margin: 0;
-height: 0;
-margin-bottom: 1px;
 
-margin-left: 60px;
+font-size: 2vw
+;
 }
 
 .videoo {
 margin-top: 0;
-height: 30vh;
+margin-bottom: 10vh;
+height: 50vh;
 margin-left: 1vw;
 width: 26.875rem; /* Converted from 430px */
 
 }
 .videoo video {
-height: 20vh;
+height: 50vh;
+margin: 0
+;
+padding: auto;
 width: 100vw;
 }
 /* General Styles */
@@ -1908,26 +1960,25 @@ padding: 0;
 /* Header Styles */
 .dixxflrx h1 {
 margin: 0;
-line-height: 0.2rem;
 color: green;
 margin-bottom: 2rem; /* Reduced for mobile */
 font-family: "Lilita One", sans-serif;
+height: 4vh;
 font-weight: 800;
-font-size: 1.5rem; /* Adjusted for mobile */
+font-size: 5vw; /* Adjusted for mobile */
 }
 
 .dixxflrx p {
 margin-left: 0px;
-font-size: 0.8rem;
+font-size:3vw;
+
 margin-bottom: 0;
 /* Adjusted for mobile */
-width: 90%; /* Full width with margin */
-margin-top: 50px ; /* Center text */
+width: 97%; /* Full width with margin */
+margin-top: 20px ; /* Center text */
 }
 .dixxflrx span{
-font-size: 1.1rem; /* Adjusted for mobile */
-width: 90%; /* Full width with margin */
-margin: 0 auto; /* Center text */
+font-size: 3.5vw; /* Adjusted for mobile */
 
 }
 
@@ -1935,12 +1986,13 @@ margin: 0 auto; /* Center text */
 .dixxflrx {
 margin: 5rem 0; /* Adjusted for mobile */
 padding: 0 2rem; /* Add padding for mobile */
-margin-bottom: 2vh;
+margin-bottom: 0;
 }
 
 /* Green Header Styles */
 .greenheader {
-padding: 2rem 1.5rem; /* Adjusted for mobile */
+padding: 5vh 3vw; /* Adjusted for mobile */
+height:16vh;
 background: green;
 color: white;
 }
@@ -1949,12 +2001,12 @@ color: white;
 font-weight: bolder;
 margin: 0 0 1.5rem; /* Reduced for mobile */
 line-height: 1.2; /* Adjusted for readability */
-font-size: 1.6rem; /* Adjusted for mobile */
+font-size: 6vw; /* Adjusted for mobile */
 }
 
 .greenheader p {
 margin-left: 0px;
-font-size: 0.7rem;
+font-size: 3vw;
 height: 3vh;
 line-height: 2vh;
 /* Adjusted for mobile */
@@ -1963,81 +2015,84 @@ margin: 0 ; /* Center text */
 }
 .greenheader span{
 height:  12vh;
-font-size: 0.6rem; /* Adjusted for mobile */
+font-size: 2vw; /* Adjusted for mobile */
 margin: 0; /* Removed left margin for mobile */
 }
 
 /* New Heading Styles */
 .newheading {
 margin-left: 60px;
-
+margin-bottom: 0;
 margin: 2rem 0; /* Adjusted for mobile */
 }
 .newheading span{
-color: #002fff;
-font-size: 0.5rem;
+color: #000000;
+
+font-size: 2.2vw;
 margin-left: 20px;
-margin-top: 90vh;
+margin-top: px;
 }
 
 
 
 .newheading h1 {
-margin: 0;
-line-height: 1.5; /* Adjusted for readability */
-color: green;
-margin-bottom: 1.5rem; /* Reduced for mobile */
-margin-left: 20px;
-font-size: 1.2rem; /* Adjusted for mobile */
+  margin: 0;
+  margin-left: 20px;
+  color: green;
+  margin-bottom: 2vh; /* Reduced for mobile */
+  font-family: "Lilita One", sans-serif;
+  font-weight: 800;
+  font-size: 5vw; /* Adjusted for mobile */
+  
 }
 
 .newheading2 h1 {
-margin: 10vh;
-margin-left: 0;
-width: 80vw;
-line-height: 1.3; /* Adjusted for readability */
-color: green;
-margin-bottom: 4rem; /* Reduced for mobile */
-font-size: 1.4rem; /* Adjusted for mobile */
+  margin-top: 90px;
+  color: green;
+  
+  margin-bottom: 1.5vw; /* Reduced for mobile */
+  font-family: "Lilita One", sans-serif;
+  font-weight: 800;
+  width: 100vwz;
+  font-size: 6vw; /* Adjusted for mobile */
+  
 }
 .newheading2 span {
-
+margin-top: 0;
 line-height: 1.5; /* Adjusted for readability */
 color: green;
-margin-bottom: 1.5rem; /* Reduced for mobile */
-font-size: 1.2rem; /* Adjusted for mobile */
+margin-bottom: 1vh; /* Reduced for mobile */
+font-size: 3.8vw; /* Adjusted for mobile */
 }
 .newheading2 p {
 
-font-size: 0.8rem;
-/* Adjusted for mobile */
-width: 90%; /* Full width with margin */
-margin: 0 ; /* Center text */nt-size: 0.5rem;
-}
-#para{
-
-margin-top: 12vh;
-margin-bottom: 15vh;
-}#para2{
-margin-top: 5vh;
-margin-bottom: 10vh;
+  margin-left: 0px;
+  font-size:4vw;
+  margin-bottom: 0px;
+  /* Adjusted for mobile */
+width: 87%;
+  margin-top: 14px ; /* Center text */
 }
 
 
 
 
 .newheading p {
-margin-left: 20px;
+  margin-left: 0px;
+  font-size:4vw;
 
-margin-top: 0.8rem; /* Reduced for mobile */
-font-size: 0.8rem; /* Adjusted for mobile */
+  margin-left: 20px;
+  margin-bottom: 0vh;
+  /* Adjusted for mobile */
+  width: 80%; /* Full width with margin */
+  margin-top: 20px ; /* Center text */
 }
 
 /* Link Styles */
 a {
-margin: 0 0.2rem; /* Adjusted for mobile */
+margin: 0 0.0rem; /* Adjusted for mobile */
 color: rgb(0, 0, 255);
-font-size: 0.5rem; /* Adjusted for mobile */
+font-size: 2.2vw; /* Adjusted for mobile */
 text-decoration: none;
 }
 .newheading2{
@@ -2048,26 +2103,27 @@ margin-left: 40px;
 /* Span Styles */
 #SPANNN {
 margin-top: 0vh;
-margin-left: 30px;
+margin-left: 9vw;
 width: 30vw;
-color: #002fff;
+color: #000000;
 font-size: 0.5rem; /* Adjusted for mobile */
 }
 
 #SPANNNN {
-color: #002fff;
-
+color: #000000;
+margin-top: 0;
 margin-left: 40px;
 width: 30vw;
-font-size: 0.6rem; /* Adjusted for mobile */
+font-size: 2.4vw /* Adjusted for mobile */
 }
 
 /* Section Styles */
 .seconddiv {
 background: honeydew;
 width: 100%;
-margin: 2rem 0; /* Reduced for mobile */
-padding: 1rem; /* Added padding for mobile */
+
+margin: 0rem 0; /* Reduced for mobile */
+padding:2vh; /* Added padding for mobile */
 }
 
 .seconddiv2 {
@@ -2075,16 +2131,427 @@ width: 100%;
 margin-top: 2rem; /* Reduced for mobile */
 }
 
+.contact{
+  margin-left: 0;
+}
+
+.headerfoot {
+
+  width: 100vw;
+  height: 30vh;
+  
+  color: rgb(254, 255, 253);
+  background-color: rgb(13, 102, 13);
+}
+.headerfoot1{
+
+  width: 66vw;
+  height: 29vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputt{
+display: flex;
+flex-direction: column;
+}
+
+input{
+
+padding: 10px 10px;
+width: 500px;
+border-radius: 20px;
+margin: 0px 10px;
 
 
-/* Additional Margins */
-.margin {
-margin-top: 10rem; /* Adjusted for mobile */
+}
+
+::placeholder{
+font-size: 20px;
+}
+.contact h1{
+  
+font-size: 8vw;
+height: 70px;
+}
+.divvv{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+  a{
+    margin: 0px 3px;
+  }
+  
+
+/* From Uiverse.io by Sharkotech */ 
+.card h3{
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+.social-icon1 {
+  font-size: 7vw; /* Adjusted from 50px */
+  margin: 0 0;
+  border-radius: 2vw; /* Adjusted from 20px */
+  color: white;
+}
+
+.social-icon2 {
+  font-size: 7vw; /* Adjusted from 50px */
+
+  color: white;
+}
+
+.social-icon3 {
+  margin: 0 0;
+
+  font-size: 7vw; /* Adjusted from 50px */
+  color: white;
+}
+
+.social-icon4 {
+  margin: 0 0;
+  font-size: 7vw; /* Adjusted from 50px */
+  padding: 0; /* Removed padding since it was 'px' */
+  color: white;
+  border-radius: 2vw; /* Adjusted from 20px */
+}
+
+/* From Uiverse.io by Sharkotech */ 
+.card {
+  width: 55vw;
+  height: 27vh;
+  
+  background: rgba(0, 0, 0, 0.199);
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 3vh -1vh rgba(0, 0, 0, 0.3); /* Adjusted shadow */
+}
+
+#c1 {
+  background-color: black;
+}
+
+#c2 {
+  background-color: blue;
+}
+
+#c3 {
+  background-color: red;
+}
+
+#c4 {
+  text-align: center;
+  margin: 0;
+  border: 0.2vw solid rgb(0, 0, 0); /* Adjusted from 2px */
+  background-color: green;
+}
+
+.textt {}
+
+.main h4 {
+  font-size: 2.6vw;
+
+  margin: 3vh; /* Adjusted from 30px */
+}
+
+.main h3 {
+  font-size: 5vw;
+  margin-left: 0;
+  padding-top: 3vh; /* Kept the same as it's already in vh */
+  margin: 4vh; /* Kept the same as it's already in vh */
+  height: 0vh; /* Kept the same as it's already in vh */
 }
 
 
 
+.main:hover #c1 {
+  transform: translateX(-10vw) rotate(-40deg); /* Adjusted from -100px */
 }
+
+.main:hover #c2 {
+  transform: translateX(-5vw) rotate(-30deg); /* Adjusted from -50px */
+}
+
+.main:hover #c3 {
+  transform: translateX(0) rotate(-20deg);
+}
+
+.main:hover #c4 {
+  transform: translateX(5vw) rotate(-10deg); /* Adjusted from 50px */
+}
+
+#c1:hover {
+  transform: translateX(-15vw) rotate(0deg) !important; /* Adjusted from -150px */
+}
+
+#c2:hover {
+  transform: translateX(-10vw) rotate(0deg) !important; /* Adjusted from -100px */
+}
+
+#c3:hover {
+  transform: translateX(-5vw) rotate(0deg) !important; /* Adjusted from -50px */
+}
+
+#c4:hover {
+  transform: translateX(5vw) rotate(0deg) !important; /* Adjusted from 50px */
+}
+
+.main {
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+
+.social-icon5 {
+  font-size: 5vw; /* Adjusted from 5rem */
+  color: white;
+  border-radius: 2vw; /* Adjusted from 20px */
+}
+
+
+.data2 {
+  display: flex;  
+  }
+  .imgg img{
+  width: 100vw;
+  height: 40vh;
+  margin-left: 0;
+  margin-top: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  /* section climate */
+  .data {
+    margin-left: 5vw; /* Adjusted from 50px */
+  }
+  
+  .data h1 {
+    font-size: 7vw; /* Kept the same */
+    font-weight: 900;
+  }
+  
+  .data p {
+    width: 85vw;
+    font-size: 4vw; /* You may want to convert this to vw or vh */
+  }
+  
+  .all {
+    margin-top: 10vh; /* Adjusted from 100px */
+    margin-right: 15vw; /* Adjusted from 150px */
+    display: flex;
+flex-direction: column;
+  }
+  
+  .secondquestion {
+    margin-top: 10vh; /* Adjusted from 100px */
+  }
+  
+  .secondquestion h1 {
+    font-size: 7vw; /* Kept the same */
+    font-weight: 900;
+  }
+  
+  .secondquestion p {
+    width: 85vw;
+    font-size: 4vw; /* You may want to convert this to vw or vh */
+  
+  
+  }
+  
+  .data2 img {
+    width: 47vw; /* Kept the same */
+    height: 40vh; /* Kept the same */
+    margin-top: 3vh; /* Adjusted from 30px */
+    margin-left: 1vw; /* Adjusted from 130px */
+  }
+  
+  .lamba p {
+    width: 85vw;
+    font-size: 4vw; /* You may want to convert this to vw or vh */
+  }
+  
+  .lamba h1 {
+    font-size: 7vw; /* Kept the same */
+    font-weight: 900
+  }
+  
+  .lamba {
+    margin-left: 5vw; /* Adjusted from 50px */
+  }
+  
+  .lamba2 {
+    margin-left: 5vw; /* Adjusted from 50px */
+  }
+  
+  .lamba2 h1 {
+    font-size: 7vw; /* Kept the same */
+    font-weight: 900
+  }
+  
+  .lamba2 p {
+    width: 85vw;
+    font-size: 4vw; /* You may want to convert this to vw or vh */
+  }
+  
+  .slider {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    }
+    
+    .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    }
+    .slide img {
+    min-width: 100%;
+    height: 900px;
+    box-sizing: border-box;
+    position: relative;
+    }
+    
+    /* img {
+    width: 100%;
+    height: 1000px;
+    } */
+    
+    .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 100px;
+    color: rgb(249, 249, 249);
+    padding: 10px;
+    border-radius: 5px;
+    }
+    .caption h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8vw;
+    background-color: transparent;
+    }
+    
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: background-color 0.6s ease;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    }
+    
+    .prev {
+    left: 10px;
+    }
+    
+    .next {
+    right: 10px;
+    }
+    
+    .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+
+ 
+      .allflex{
+      display: flex;
+      justify-content: space-between;
+      }
+      
+      
+      
+      
+      
+      
+      .allflex{
+      display: flex;
+      margin: 40px 20px;
+      justify-content: center;
+      background: #f0f8f0; /* Light green background for the whole container */
+      border-radius: 10px; /* Rounded corners for a modern look */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      
+      align-items: center;
+      }
+      .allflex h1{
+      font-size: 4vw;
+      }
+      .allflex img{
+      width: 20vw;
+      height: 10vh;
+      }
+      .allflex p{
+      font-size: 2vw;
+      }
+      .disp{
+      margin: 0 50px;
+      }
+      .allflex h2{
+      font-size: 4vw;
+       }
+      
+      .agenda{
+      
+      background-color:honeydew
+      }
+      img{
+      }
+      .headrer {
+      padding: 20px;
+      font-size: 2vw;
+      margin: 0;
+      
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bolder;
+      color: rgb(255, 255, 255);
+      background-color:rgb(11, 128, 11);
+      
+      width: 100vw;
+      }
+      .bg h2
+      {
+
+        font-size: 12vw;
+      }
+      .bg p
+      {
+
+        font-size: 2.5vw;
+      }
+.green{
+  padding: 20px;
+
+  font-size: 3vw;
+}
+
+}
+
+
+
+      
+
 
 
 

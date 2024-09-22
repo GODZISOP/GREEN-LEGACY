@@ -72,13 +72,13 @@ const Presentation = () => {
                 />
               )}
             </div>
-          </div>
-        </div>
-      )}
 <span className='top1' >
 For More Info Visit:
               <a href=" https://www.nasa.gov/ "> https://www.nasa.gov/ </a>
 </span>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

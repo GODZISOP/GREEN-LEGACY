@@ -13,18 +13,19 @@ const News =()=>{
 
 <h1>RESOURCING THE ENERGY TRANSITION
 </h1>
+<div className="topone">
 <p>PRINCIPLES TO GUIDE CRITICAL 
 ENERGY TRANSITION MINERALS 
 </p>
 <span>UN Secretary-General's Panel on Critical Energy Transition Minerals</span>
+</div>
               </div>
             </div>
           <div>
 
             <div className="dixxflrx">
-              <h1>Critical Minerals and </h1>
+              <h1>Critical Minerals and Renewable Energy </h1>
 
-              <h1>Renewable Energy</h1>
               <div>
 
               <span>Opportunities, Challenges, and the Path Forward:</span>

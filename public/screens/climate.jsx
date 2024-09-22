@@ -12,6 +12,8 @@ const Climate=()=>{
 <Naavvbar></Naavvbar>
     <ImageSlider></ImageSlider>
 </div>
+<div className="allflez">
+
 <div className="all">
     <div className="data">
         <div className="gapkam">
@@ -73,6 +75,8 @@ Since the late 1800s, the Earth's surface temperature has risen by about 1.2°C,
 <p>Many solutions for climate change can bring economic advantages while improving our quality of life and protecting the environment. We have global frameworks to guide our efforts, including the Sustainable Development Goals, the UN Framework Convention on Climate Change, and the Paris Agreement. Actions can be grouped into three main areas: cutting emissions, adapting to climate impacts, and financing necessary changes.</p>
 <p>We can invest in climate action now, or face much higher costs in the future. Addressing climate change needs substantial financial investments from governments and businesses. However, not taking action will be far more costly. A key step is for developed countries to honor their promise to provide $100 billion annually to help developing nations adapt and transition to greener economies.</p>
 </div>
+</div>
+
 <ContactUs></ContactUs>
         </>
     )
