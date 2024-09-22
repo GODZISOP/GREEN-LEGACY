@@ -1,0 +1,3 @@
+[submodule "GREEN-LEGACY"]
+    path = GREEN-LEGACY
+    url = git@github.com:GODZISOP/GREEN-LEGACY.git
