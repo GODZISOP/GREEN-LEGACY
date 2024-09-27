@@ -3,15 +3,22 @@ import React from 'react';
 import guffran from '../image/ghuffran.jpg';
 import mayedaImg from '../image/ma.jpg';
 import hadiraImg from '../image/HADIRAA.jpg';
+<<<<<<< HEAD
 import First from '../image/first.jpg';
 import last from '../image/last.jpg';
 
+=======
+>>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
 import ammara from '../image/ammaraa.jpg';
 import arslan from '../image/ARSLAM.jpg';
 
 import rehan from '../image/re.jpg';
 
+<<<<<<< HEAD
 import rehan1 from '../image/seclast.jpeg';
+=======
+import rehan1 from '../image/ARSLAM.jpg';
+>>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
 
 
 
@@ -62,6 +69,7 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
       </div>
       <div className='allflex'> 
 
+<<<<<<< HEAD
 <div>
   <img src={First} alt="" />
 </div>
@@ -78,12 +86,18 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 
       <div className='allflex'> 
 
+=======
+>>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
         <div>
           <img src={guffran} alt="" />
         </div>
 
         <div className='disp'>
+<<<<<<< HEAD
           <h1>FOUNDER</h1>
+=======
+          <h1>HEAD DEPARTMENT</h1>
+>>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
           <h2>Ghufran Ahmed 
           </h2>
           <p>A visionary leader and social activist from Karachi, Pakistan. With a strong passion for environmental sustainability and social responsibility, He dedicated his organization to addressing climate change and promoting sustainable development in line with the Agenda 2030 Sustainable Development Goals.
@@ -179,6 +193,7 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 </div>
 
 <div className='disp'>
+<<<<<<< HEAD
   <h1>
   VICE <br></br>CHAIRPERSON
 
@@ -222,6 +237,20 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 
 
 
+=======
+  <h1>SOCIAL MEDIA MANAGER
+
+  </h1>
+  <h2>ARSALAN RASHID
+
+  </h2>
+<p>A driven and results-oriented professional with a strong background in business management and marketing. honored to lead the charge in amplifying the message and engaging with community through effective social media strategies and collaborating with like-minded individuals who share our passion for creating a greener tomorrow.</p>
+ 
+</div>
+
+</div>
+
+>>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
 <ContactUs></ContactUs>
 
 
