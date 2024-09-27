@@ -4,15 +4,8 @@
 
 body {
 
-<<<<<<< HEAD
   overflow-x: hidden; /* Prevent horizontal scrolling */
 margin: 0;
-=======
-      overflow-x: hidden; /* Prevent horizontal scrolling */
-margin: 0;
-padding: 0;
-  box-sizing: border-box; /* Include padding and borders in element's total width */
->>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
 }
 
 
@@ -31,7 +24,6 @@ padding: 0;
 
 
 .main-nav {
-<<<<<<< HEAD
 display: flex;
 align-items: center;
 justify-content: center;
@@ -119,105 +111,6 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 margin-left: 30px;
 margin-top: 350px;
 }
-=======
-  display: flex;
-  align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: white; /* Light background for the nav bar */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
-  
-  .main-nav h2 {
-    margin-right: 20px;
-    font-size: 50x;
-    color: #333;
-  }
-  
-  .logo1 {
-    width: 140px;
-    height: auto;
-    margin-right: 20px; /* Space between logo and links */
-  }
-  
-  .nav-link {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333; /* Default link color */
-    font-weight: 500;
-    padding: 10px 10px; /* Add padding for better click area */
-    border-radius: 5px;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .nav-link.active {
-    background: linear-gradient(45deg, #007bff, #00d2ff); /* Gradient background */
-    color: #fff; /* Text color when active */
-    font-weight: bold;
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for active state */
-  }
-  
-  .nav-link:hover {
-    background: rgba(0, 0, 0, 0.1); /* Light background on hover */
-    color: #007bff; /* Hover text color */
-    text-decoration: underline; /* Underline on hover */
-    transform: scale(1.05); /* Slight zoom effect on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
-  }
-  
-  .LINKS {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(37, 143, 37); /* Green background */
-    padding: 10px; /* Add some padding */
-  }
-  
-  .LINKS h4 {
-    margin: 0;
-    font-size: 16px;
-    color: rgb(223, 218, 218); /* Light text color */
-  }
-  
-  
-  .LINKS:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-    color: #ff0000; /* Text color change on hover */
-    transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
-  }
-   h4:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-    color: #84ff00; /* Text color change on hover */
-    transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
-  }
-  .descp h1{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height:5vh;
-    font-size: 7rem;
-  }
-  .descp p{
-    color: gray;
-    font-size: 30px;
-    
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  .descp{
-    margin-left: 30px;
-margin-top: 350px;
-  }
-
-
-
-
-  
-  
-  
-  
-  
-  
->>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
 
 
 
@@ -1375,11 +1268,7 @@ font-weight: bolder;
 color: rgb(255, 255, 255);
 background-color:rgb(11, 128, 11);
 
-<<<<<<< HEAD
 width: 100vw;
-=======
-  width: 100vw;
->>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
 }
 .headrer h2{
 }

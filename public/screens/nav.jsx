@@ -164,27 +164,14 @@ style={({ isActive }) => ({
     
     <Presentation></Presentation>
 
-<<<<<<< HEAD
     <div className="top">
     <h1 className="newheading1">WHAT HAPPENS IF WE IGNORE THE CLIMATE CRISES?</h1>
 z
-=======
-    <h1 className="newheading1">WHAT HAPPENS IF WE IGNORE THE CLIMATE CRISES?</h1>
-    <div className="top">
-
-    <span className="iddd">
-      Source:
-     <a href="https://youtu.be/RVcsV_-erys?si=3CLFdSMOZSLdpqoA">https://youtu.be/RVcsV_-erys?si=3CLFdSMOZSLdpqoA</a></span>
-    </div>
->>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
     <div className="videoo">
 
     <video src={video2 } controls></video>
     </div>
-<<<<<<< HEAD
     </div>
-=======
->>>>>>> 6b1575b680e453d69d0aa02ca86c544fc94e5057
     <Accordion></Accordion>
     <ContactUs></ContactUs>
   </div>
