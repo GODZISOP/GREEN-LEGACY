@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Correct import
+import { NavLink } from 'react-router-dom';
 
 const ContactUs = () => {
   return (
@@ -15,10 +16,24 @@ const ContactUs = () => {
         <div className="footer-links">
             <h4>Site Map</h4>
             <ul>
+            <NavLink to="#">
+
                 <li><a href="#">Home</a></li>
+                </NavLink>
+
+                <NavLink to="/annual">
+
                 <li><a href="/annual">UN Repoorts</a></li>
+                </NavLink>
+                <NavLink to="/about">
+
                 <li><a href="/about">About</a></li>
+                </NavLink>
+                <NavLink to="/contact">
+
                 <li><a href="/contact">Contact</a></li>
+                </NavLink>
+
             </ul>
         </div>
      
@@ -41,6 +56,7 @@ const ContactUs = () => {
         </div>
         <div className="footer-bottom">
             <p>&copy; 2024 YOUTH ORGANIZATION All rights reserved.</p>
+            <p>MADE BY ZAIN SHABBIR.</p>
         </div>
     </footer>
     </>

@@ -1,109 +1,3 @@
-<<<<<<< HEAD
-=======
-/* Nav.css */
-/* src/BlogPage.css */
-body{
-  margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
-            overflow-x: hidden; /* Prevent horizontal overflow */
-            max-width: 100vw; /* Ensure body does not exceed viewport width */
-            box-sizing: border-box; /* Include padding and border in element's total width */
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-.blog-page-container1 {
-    /* your styles here */
-}
-
-.main-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: white; /* Light background for the nav bar */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
-  
-  .main-nav h2 {
-    margin-right: 20px;
-    font-size: 50x;
-    color: #333;
-  }
-  
-  .logo1 {
-    width: 140px;
-    height: auto;
-    margin-right: 20px; /* Space between logo and links */
-  }
-  
-  .nav-link {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333; /* Default link color */
-    font-weight: 500;
-    padding: 10px 20px; /* Add padding for better click area */
-    border-radius: 5px;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .nav-link.active {
-    background: linear-gradient(45deg, #007bff, #00d2ff); /* Gradient background */
-    color: #fff; /* Text color when active */
-    font-weight: bold;
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for active state */
-  }
-  
-  .nav-link:hover {
-    background: rgba(0, 0, 0, 0.1); /* Light background on hover */
-    color: #007bff; /* Hover text color */
-    text-decoration: underline; /* Underline on hover */
-    transform: scale(1.05); /* Slight zoom effect on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
-  }
-  
-  .LINKS {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(37, 143, 37); /* Green background */
-    padding: 10px; /* Add some padding */
-  }
-  
-  .LINKS h4 {
-    margin: 0;
-    font-size: 16px;
-    color: rgb(223, 218, 218); /* Light text color */
-  }
-  
-  body {
-    font-family: 'Courier New', Courier, monospace;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0; /* Ensure padding is set to 0 */
-  }
-  
-  .LINKS:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-    color: #ff0000; /* Text color change on hover */
-    transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
-  }
-   h4:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-    color: #84ff00; /* Text color change on hover */
-    transition: box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
-  }
-  .descp h1{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height:80px;
-    font-size: 100px;
-  }
-  .descp p{
-    color: gray;
-    font-size: 30px;
->>>>>>> origin/main
 
 
 /* Nav.css */
@@ -672,7 +566,6 @@ height: 0h;
 line-height: 1.7; /* Increased line height for better readability */
 }
 .imagetext{
-<<<<<<< HEAD
 display: flex;
 justify-content: space-between;
 }
@@ -681,34 +574,6 @@ justify-content: space-between;
 /* src/components/ContactUs.css */
 
 
-=======
-  display: flex;
-    justify-content: space-between;
-  }
-  .selected-section h2{
-    font-size: 34px;
-    height: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: whitesmoke;
-  }
-  .IMGSS{
-    margin-top: 30px;
-    width: 100vw;
-  }
-  .absoulte{
-    background-color: whitesmoke;
-    
-    width: 300px;
-    top: 1990px;
-    left: 140px;
-    height: 90px;
-    position: absolute;
-  }
-  /* src/components/ContactUs.css */
->>>>>>> origin/main
 
 .accordion-container {
 display: flex;
@@ -764,7 +629,6 @@ margin: 0;
 font-size: 1.3rem;
 }
 .accordion-container1{
-<<<<<<< HEAD
 text-align: center;
 padding-bottom: 150px;
 background-color: rgb(232, 250, 230);
@@ -778,26 +642,6 @@ margin-top: 80px;
 }
 .sections-row h2{
 font-size: 1.5rem;
-=======
-  text-align: center;
-  margin-left: 10px;
-padding-bottom: 10px;
-  background-color: rgb(232, 250, 230);
-
-}
-
-/* src/BlogPage.css */
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-.blog-page-container1 {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  max-width: 1000px;
-  margin-left: 1600px;
-  background-color: #f0f8f0;
-  border-radius: 10px;
->>>>>>> origin/main
 }
 
 
@@ -842,33 +686,7 @@ background: #f0f8f0; /* Light green background for the whole container */
 border-radius: 10px; /* Rounded corners for a modern look */
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 
-<<<<<<< HEAD
 align-items: center;
-=======
-
-@media (max-width: 480px) {
-  .post-image {
-    height: 200px; /* Further adjusted height for very small screens */
-  }
-
-  .post-title {
-    font-size: 1.5rem; /* Further adjusted font size */
-  }
-
-  .post-snippet {
-    font-size: 1rem;
-  }
-}
-.allflex{
-  display: flex;
-  margin: 40px 20px;
-  justify-content: center;
-  background: #f0f8f0; /* Light green background for the whole container */
-  border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-
-  align-items: center;
->>>>>>> origin/main
 }
 .allflex h1{
 font-size: 100px;
@@ -1169,7 +987,7 @@ border-radius: 5px;
 }
 .caption h1{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 100px;
+font-size: 70px;
 background-color: transparent;
 }
 
@@ -1210,10 +1028,13 @@ width: 47vw;
 height: 100vh;
 margin-top: 30px;
 margin-left: 20px;
+<<<<<<< Updated upstream
 =======
   margin-top: 30px;
   height: 1000px;
   width: 1100px;
+=======
+>>>>>>> Stashed changes
 }
 
 
@@ -1223,8 +1044,12 @@ margin-left: 20px;
 
 /* section climate */
 .data {
+<<<<<<< Updated upstream
   margin-left: 5vw; /* Adjusted from 50px */
 =======
+=======
+  margin-left: 1vw; /* Adjusted from 50px */
+>>>>>>> Stashed changes
 }
 
 .data h1 {
@@ -1240,6 +1065,7 @@ margin-left: 20px;
 .all {
   margin-top: 10vh; /* Adjusted from 100px */
   margin-right: 15vw; /* Adjusted from 150px */
+<<<<<<< Updated upstream
 .data p{
   width: 1200px;
   font-size: 35px;
@@ -1257,11 +1083,16 @@ margin-left: 20px;
 .all{
   margin-top: 100px;
 
+=======
+>>>>>>> Stashed changes
   display: flex;
+  
   justify-content: space-between;
 }
 
 .secondquestion {
+  margin-left: 0vw; /* Adjusted from 50px */
+
   margin-top: 10vh; /* Adjusted from 100px */
 }
 
@@ -1276,18 +1107,13 @@ margin-left: 20px;
 
 
 }
-=======
-.lamba {
-
-}
-.lamba2 {
->>>>>>> origin/main
 
 .data2 img {
-  width: 47vw; /* Kept the same */
+
+  width: 46vw; /* Kept the same */
   height: 60vh; /* Kept the same */
   margin-top: 3vh; /* Adjusted from 30px */
-  margin-left: 1vw; /* Adjusted from 130px */
+  margin-left: 0vw; /* Adjusted from 130px */
 }
 
 .lamba p {
@@ -1302,11 +1128,14 @@ margin-left: 20px;
 }
 
 .lamba {
-  margin-left: 5vw; /* Adjusted from 50px */
+
+  margin-left: 1vw; /* Adjusted from 50px */
+
 }
 
 .lamba2 {
-  margin-left: 5vw; /* Adjusted from 50px */
+  margin-left: 1vw; /* Adjusted from 50px */
+
 }
 
 .lamba2 h1 {
@@ -1320,12 +1149,8 @@ margin-left: 20px;
   font-size: 1.6rem; /* You may want to convert this to vw or vh */
 }
 
-<<<<<<< HEAD
 .alldixx {
   margin-left: 4vw; /* Adjusted from 40px */
-=======
-.alldixx{
->>>>>>> origin/main
 }
 
 .alldixx h1 {
@@ -1335,223 +1160,18 @@ margin-left: 20px;
 .alldixx p {
   font-size: 3vw; /* Adjusted from 30px */
 }
-<<<<<<< HEAD
 
 .agywaladiv p {
   margin-left: 3vw; /* Adjusted from 30px */
+<<<<<<< Updated upstream
 =======
 .agywaladiv p{
+=======
+>>>>>>> Stashed changes
 }
 
 .agywaladiv span {
   font-weight: bold;
-<<<<<<< HEAD
-=======
-  }
-  
-  .alagdiv span{
-    font-weight: bold;
-  font-size: 50px;
-
-    }
-    .alagdiv p{
-    font-size: 30px;
-  
-      }
-      .spandiv{
-    font-size: 30px;
-        
-      }
-      .spandiv span{
-        font-weight: bold;
-            
-          }
-          .h1heading span{
-            font-weight: bold;
-
-          }
-          .dixxflrx h1{
-            margin: 0;
-            line-height: 30px;
-            color: green;
-            margin-bottom: 60px;
-            font-family: "Lilita One", sans-serif;
-            font-weight: 800;
-            font-style: normal;
-          
-            font-size: 90px;
-          }
-             .dixxflrx p{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 34px;
-            width: 1500px;
-          }
-          .dixxflrx{
-            margin-top: 170px;
-            margin-left: 560px;
-
-          }
-          .dixxflrx span{
-            color: green;
-font-weight: bold;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 44px;
-            
-          }
-          .greenheader{
-            background-color: green;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-padding: 20px 0 60px 30px;
-          }
-
-          .greenheader h1{
-margin-left: 13px;
-line-height: 80px;
-            font-size: 80px;
-          }
-          .greenheader p{
-margin-left: 20px;
-
-line-height: 7px;
-height: 10px;
-            font-size: 40px;
-font-weight: bold;
-margin: 20px;
-
-          }
-          .greenheader span{
-font-weight: bold;
-margin-left: 22px;
-line-height: 2px;
-            font-size: 26px;
-          }
-          .newheading h1{
-
-            margin: 0;
-            line-height: 80px;
-            color: green;
-            height: 140px;
-            margin-bottom: 60px;
-            
-            font-family: "Lilita One", sans-serif;
-            font-weight: 800;
-            font-style: normal;
-          
-            font-size: 70px;
-
-
-          }
-           a{
-margin: 0 0.8px;
-            color: blue;
-            font-size: 17px;
-            
-            text-decoration: none;
-
-
-          }
-          .sourcelinks span {
-            font-size: 17px;
-
-
-            
-            
-                      }
-                      #SPANNN{
-                        margin-top: 1px;
-                        margin-left: 565px;
-
-
-                        color: rgb(0, 0, 0);
-            font-size: 17px;
-
-
-                      }
-                      #SPANNNN{
-                        margin-left: 505px;
-                        color: rgb(0, 0, 0);
-            font-size: 17px;
-
-
-                      }
-
-          .seconddiv{
-            background-color: honeydew;
-            width: 100vw;
-            padding: 180px;
-            margin-top: 70px;
-          }
-          .seconddiv2{
-            width: 100vw;
-            margin-top: 70px;
-          }
-          .seconddiv2 p{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 34px;
-            height: 480px;
-            width: 1500px;
-          }
-          .seconddiv p{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 34px;
-            width: 1500px;
-          }
-         
-          .newheading2{
-
-
-            margin-left: 500px;
-            
-          }
-          .newheading{
-
-
-            margin-left: 350px;
-            
-          }
-
-          .newheading2 h1{
-
-            margin: 0;
-            line-height: 190px;
-            color: green;
-            height:20px;
-            margin-bottom: 60px;
-            font-family: "Lilita One", sans-serif;
-            font-weight: 800;
-            font-style: normal;
-            font-size: 70px;
-
-            height: 80px;
-
-          }
-          
-          .newheading2 span{
-            color: green;
-            font-weight: bold;
-                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                        font-size: 44px;size: 20px;
-
-
-          }
-          .newheading2 p{
-
-           
-            margin-top: 50px;
-
-
-          }
-
-.videoo video{
-  height: 1000px;
-  margin-left: 380px;
- }
-.margin{
-  margin-top: 100px
->>>>>>> origin/main
 }
 
 .alagdiv span {
@@ -1873,14 +1493,33 @@ h3, h4 {
 
 
   .social-icon {
-      font-size: 20px; /* Adjust social icon size */
+      font-size: 7vw; /* Adjust social icon size */
       margin: 0 5px; /* Adjust margin */
   }
 
   .footer-bottom {
       font-size: 10px;
   }
+  footer {
+    background-color:green; /* Darker green for a fresh look */
+    color: white;
+    padding: 2vh 3vw;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px; /* Space between grid items */
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 6vw; /* Adjust social icon size */
+
+  }
+  .footer-content p{
+    font-size: 4vw; /* Adjust social icon size */
+
+  }
 }
+
 
 
 
@@ -1980,15 +1619,16 @@ color: rgb(223, 218, 218);
 }
 
 .descp h1 {
-margin-bottom: 50px;
+
+margin-bottom: 30px;
 color: white;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 3rem; /* Adjusted size */
+font-size: 10vw; /* Adjusted size */
 }
 
 .descp p {
 color: gray;
-font-size: 18px; /* Adjusted size */
+font-size: 5vw; /* Adjusted size */
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -2450,6 +2090,9 @@ margin: 0; /* Removed left margin for mobile */
 .newheading {
 margin-left: 60px;
 margin-bottom: 0;
+padding-bottom: 0;
+padding-top: 0;
+
 margin: 2rem 0; /* Adjusted for mobile */
 }
 .newheading span{
@@ -2469,7 +2112,8 @@ margin-top: px;
   margin-bottom: 2vh; /* Reduced for mobile */
   font-family: "Lilita One", sans-serif;
   font-weight: 800;
-  font-size: 5vw; /* Adjusted for mobile */
+  width:70vw;
+  font-size: 5.2vw; /* Adjusted for mobile */
   
 }
 
@@ -2480,8 +2124,8 @@ margin-top: px;
   margin-bottom: 1.5vw; /* Reduced for mobile */
   font-family: "Lilita One", sans-serif;
   font-weight: 800;
-  width: 100vwz;
-  font-size: 6vw; /* Adjusted for mobile */
+  width: 80vw;
+  font-size: 7vw; /* Adjusted for mobile */
   
 }
 .newheading2 span {
@@ -2492,13 +2136,13 @@ margin-bottom: 1vh; /* Reduced for mobile */
 font-size: 3.8vw; /* Adjusted for mobile */
 }
 .newheading2 p {
-
+  
   margin-left: 0px;
   font-size:4vw;
   margin-bottom: 0px;
   /* Adjusted for mobile */
 width: 87%;
-  margin-top: 14px ; /* Center text */
+margin-top: 14px ; /* Center text */
 }
 
 
@@ -2529,27 +2173,26 @@ margin-left: 40px;
 
 /* Span Styles */
 #SPANNN {
-margin-top: 0vh;
 margin-left: 9vw;
 width: 30vw;
 color: #000000;
-font-size: 0.5rem; /* Adjusted for mobile */
+font-size: 2.4vw /* Adjusted for mobile */
+
 }
 
 #SPANNNN {
-color: #000000;
-margin-top: 0;
-margin-left: 40px;
-width: 30vw;
-font-size: 2.4vw /* Adjusted for mobile */
+  color: #000000;
+  margin-top: 0;
+  margin-left: 40px;
+  width: 30vw;
+  font-size: 2.4vw /* Adjusted for mobile */
 }
 
 /* Section Styles */
 .seconddiv {
 background: honeydew;
 width: 100%;
-
-margin: 0rem 0; /* Reduced for mobile */
+margin-top: 5vh;
 padding:2vh; /* Added padding for mobile */
 }
 

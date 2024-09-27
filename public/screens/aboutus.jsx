@@ -3,13 +3,15 @@ import React from 'react';
 import guffran from '../image/ghuffran.jpg';
 import mayedaImg from '../image/ma.jpg';
 import hadiraImg from '../image/HADIRAA.jpg';
+import First from '../image/first.jpg';
+import last from '../image/last.jpg';
 
 import ammara from '../image/ammaraa.jpg';
 import arslan from '../image/ARSLAM.jpg';
 
 import rehan from '../image/re.jpg';
 
-import rehan1 from '../image/ARSLAM.jpg';
+import rehan1 from '../image/seclast.jpeg';
 
 
 
@@ -60,12 +62,28 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
       </div>
       <div className='allflex'> 
 
+<div>
+  <img src={First} alt="" />
+</div>
+
+<div className='disp'>
+  <h1>Academic Curator</h1>
+  <h2>Ms. Aisha Zaki
+
+  </h2>
+  <p>Ms. Aisa Zaki serves as the academic curator for Green Legacy Alliance, where she is instrumental in developing and overseeing educational initiatives aimed at promoting environmental sustainability. With a focus on climate action, she curates programs that empower communities with knowledge and tools to contribute toward a greener, more sustainable future.Goals.
+  </p>
+</div>
+</div>
+
+      <div className='allflex'> 
+
         <div>
           <img src={guffran} alt="" />
         </div>
 
         <div className='disp'>
-          <h1>HEAD DEPARTMENT</h1>
+          <h1>FOUNDER</h1>
           <h2>Ghufran Ahmed 
           </h2>
           <p>A visionary leader and social activist from Karachi, Pakistan. With a strong passion for environmental sustainability and social responsibility, He dedicated his organization to addressing climate change and promoting sustainable development in line with the Agenda 2030 Sustainable Development Goals.
@@ -161,17 +179,48 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 </div>
 
 <div className='disp'>
-  <h1>SOCIAL MEDIA MANAGER
+  <h1>
+  VICE <br></br>CHAIRPERSON
 
   </h1>
-  <h2>ARSALAN RASHID
+  <h2>MUHMMAD ZEESHAN
 
   </h2>
-<p>A driven and results-oriented professional with a strong background in business management and marketing. honored to lead the charge in amplifying the message and engaging with community through effective social media strategies and collaborating with like-minded individuals who share our passion for creating a greener tomorrow.</p>
+<p>Muhammad Zeeshan, based in Karachi, is the Vice-Chairperson of Green Legacy Alliance. A passionate advocate for environmental sustainability, he is dedicated to empowering youth and promoting eco-friendly initiatives for a greener future..</p>
  
 </div>
 
+
+
+
 </div>
+
+
+<div className='allflex'> 
+
+<div>
+  <img src={last} alt="" />
+</div>
+
+<div className='disp'>
+  <h1>Critical analyst
+
+  </h1>
+  <h2>TEHREEM SIDDIQUE
+
+  </h2>
+<p>Tehreem is a critical analyst for Green Legacy Alliance, specializing in evaluating environmental strategies and ensuring the effectiveness of climate action initiatives. Her keen insights and data-driven approach help shape impactful decisions that drive the organization’s mission toward sustainability and environmental stewardship..</p>
+ 
+</div>
+
+
+
+
+</div>
+
+
+
+
 
 <ContactUs></ContactUs>
 

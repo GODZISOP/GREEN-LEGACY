@@ -78,9 +78,10 @@ Since the late 1800s, the Earth's surface temperature has risen by about 1.2°C,
 <p>We can invest in climate action now, or face much higher costs in the future. Addressing climate change needs substantial financial investments from governments and businesses. However, not taking action will be far more costly. A key step is for developed countries to honor their promise to provide $100 billion annually to help developing nations adapt and transition to greener economies.</p>
 </div>
 </div>
+</div>
 
 <ContactUs></ContactUs>
         </>
     )
 }
-export default Climate
+export default Climate;
