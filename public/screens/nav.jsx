@@ -167,7 +167,7 @@ style={({ isActive }) => ({
 <<<<<<< HEAD
     <div className="top">
     <h1 className="newheading1">WHAT HAPPENS IF WE IGNORE THE CLIMATE CRISES?</h1>
-
+z
 =======
     <h1 className="newheading1">WHAT HAPPENS IF WE IGNORE THE CLIMATE CRISES?</h1>
     <div className="top">
