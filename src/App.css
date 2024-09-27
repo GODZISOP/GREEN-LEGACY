@@ -1206,6 +1206,7 @@ background-color: rgba(0, 0, 0, 0.8);
 display: flex;  
 }
 .imgg img{
+<<<<<<< HEAD
 width: 47vw;
 height: 100vh;
 margin-top: 30px;
@@ -1214,6 +1215,7 @@ margin-left: 20px;
   margin-top: 30px;
   height: 1000px;
   width: 1100px;
+>>>>>>> origin/main
 }
 
 
@@ -1223,14 +1225,17 @@ margin-left: 20px;
 
 /* section climate */
 .data {
+<<<<<<< HEAD
   margin-left: 5vw; /* Adjusted from 50px */
 =======
+>>>>>>> origin/main
 }
 
 .data h1 {
   font-size: 4vh; /* Kept the same */
   font-weight: 900;
 }
+<<<<<<< HEAD
 
 .data p {
   width: 43vw;
@@ -1240,10 +1245,10 @@ margin-left: 20px;
 .all {
   margin-top: 10vh; /* Adjusted from 100px */
   margin-right: 15vw; /* Adjusted from 150px */
+=======
 .data p{
   width: 1200px;
   font-size: 35px;
-}
 }
 .data2 img {
   margin-top: 30px;
@@ -1257,6 +1262,7 @@ margin-left: 20px;
 .all{
   margin-top: 100px;
 
+>>>>>>> origin/main
   display: flex;
   justify-content: space-between;
 }
@@ -1270,6 +1276,7 @@ margin-left: 20px;
 
   font-weight: 900;
 }
+<<<<<<< HEAD
 
 .secondquestion p {
   font-size: 1.6vw; /* You may want to convert this to vw or vh */
@@ -1341,6 +1348,7 @@ margin-left: 20px;
   margin-left: 3vw; /* Adjusted from 30px */
 =======
 .agywaladiv p{
+>>>>>>> origin/main
 }
 
 .agywaladiv span {
