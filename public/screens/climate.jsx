@@ -1,6 +1,8 @@
 import Naavvbar from "./Navvbar"
 import ImageSlider from "./slider"
 import glass from "../image/glass.webp"
+import glass1 from "../image/melt.jpg"
+
 import blog1 from "../image/blog1.webp"
 import ContactUs from "./contact"
 
@@ -45,7 +47,8 @@ const Climate=()=>{
 
     <div className="data2">
 
-<img src="https://media.istockphoto.com/id/1656539588/vector/global-warming-and-climate-change-concept.jpg?s=612x612&w=0&k=20&c=2164U7sdUIpPijP0_ZvzzagyVyWG98276j7UgDnRDCo=" alt="" />
+    <img src={glass1} alt="" />
+
         <img src={glass} alt="" />
     </div>
     </div>
