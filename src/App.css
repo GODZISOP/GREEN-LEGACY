@@ -563,7 +563,7 @@ h4:hover {
 }
 
 .allflex h1 {
-  font-size: 100px
+  font-size: 5vw
 }
 
 .allflex img {
@@ -572,7 +572,7 @@ h4:hover {
 }
 
 .allflex p {
-  font-size: 30px
+  font-size: 2vw
 }
 
 .disp {
@@ -580,7 +580,7 @@ h4:hover {
 }
 
 .allflex h2 {
-  font-size: 50px
+  font-size: 2.6vw
 }
 
 .agenda {
@@ -590,7 +590,7 @@ h4:hover {
 .headrer {
   padding: 50px;
   font-size: 2vw;
-  color: #ff0000;
+  color: white;
   margin: 0;
   font-family: Verdana,Geneva,Tahoma,sans-serif;
   font-weight: bolder;
@@ -605,7 +605,8 @@ h4:hover {
 }
 
 .bg h2 {
-  font-size: 80px
+  font-size: 5vw;
+
 }
 
 .bg p {
@@ -614,7 +615,7 @@ h4:hover {
 
 .green {
   padding: 70px;
-  font-size: 30px;
+  font-size: 2vw;
   margin: 0;
   font-family: Verdana,Geneva,Tahoma,sans-serif;
   font-weight: bolder;
