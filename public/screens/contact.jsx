@@ -16,7 +16,7 @@ const ContactUs = () => {
         <div className="footer-links">
             <h4>Site Map</h4>
             <ul>
-            <NavLink to="#">
+            <NavLink to="/">
 
                 <li><a href="#">Home</a></li>
                 </NavLink>
