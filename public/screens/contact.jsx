@@ -49,9 +49,7 @@ const ContactUs = () => {
                 <a href="https://www.linkedin.com/in/green-legacy-alliance-8433a3324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="social-icon">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href="greenlegacyalliance@gmail.com" className="social-icon">
-                    <FontAwesomeIcon icon={faEnvelope} />
-                </a>
+                
             </div>
         </div>
         <div className="footer-bottom">

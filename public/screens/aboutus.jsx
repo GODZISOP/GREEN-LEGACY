@@ -68,7 +68,7 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 
 <div className='disp'>
   <h1>Academic Curator</h1>
-  <h2>Ms. Aisha Zaki
+  <h2>Ms. AISHA ZAKI
 
   </h2>
   <p>Ms. Aisa Zaki serves as the academic curator for Green Legacy Alliance, where she is instrumental in developing and overseeing educational initiatives aimed at promoting environmental sustainability. With a focus on climate action, she curates programs that empower communities with knowledge and tools to contribute toward a greener, more sustainable future.Goals.
@@ -84,7 +84,7 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 
         <div className='disp'>
           <h1>FOUNDER</h1>
-          <h2>Ghufran Ahmed 
+          <h2>GHUFRAN AHMED
           </h2>
           <p>A visionary leader and social activist from Karachi, Pakistan. With a strong passion for environmental sustainability and social responsibility, He dedicated his organization to addressing climate change and promoting sustainable development in line with the Agenda 2030 Sustainable Development Goals.
           </p>
@@ -203,7 +203,7 @@ By planting trees and promoting environmental stewardship, we aim to reduce the 
 </div>
 
 <div className='disp'>
-  <h1>Critical analyst
+  <h1>CRITICAL ANALYST
 
   </h1>
   <h2>TEHREEM SIDDIQUE
